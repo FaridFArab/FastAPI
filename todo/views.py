@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from typing import List, Optional
+from typing import List
 from pydantic import BaseModel
 from tortoise.contrib.fastapi import HTTPNotFoundError
 from todo.models import Todo, Todo_Pydantic, TodoIn_Pydantic
